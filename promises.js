@@ -29,7 +29,7 @@ const int2Bool = i => new Promise((resolve, reject) => { switch(i) {
     break;
 }});
 
-// Third function to chain together the first two functions
+// Third function to chain together the first two functions, itself returning a promise
 // IMPLEMENT ME!
 const chain = undefined;
 
